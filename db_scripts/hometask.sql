@@ -28,7 +28,7 @@ create table nc_attributes(
 create table nc_references(
 			object_id int unsigned,
             attr_id int unsigned,
-            reference int,
+            reference int unsigned,
             foreign key (object_id) references nc_objects(object_id),
             foreign key (attr_id) references nc_attributes(attr_id));
             
