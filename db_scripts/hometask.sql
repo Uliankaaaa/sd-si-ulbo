@@ -121,3 +121,52 @@ select * from nc_objects;
 select * from nc_params;
 select * from nc_references;
 select * from nc_object_types;
+
+insert into nc_attributes
+values(null, 1, 'Activation Period', 2);
+insert into nc_attributes
+values(null, 2, 'Activation Period', 2);
+insert into nc_attributes
+values(null, 3, 'Activation Period', 2);
+insert into nc_attributes
+values(null, 1, 'Product Price', 2);
+insert into nc_attributes
+values(null, 2, 'Product Price', 2);
+insert into nc_attributes
+values(null, 3, 'Product Price', 2);
+insert into nc_attributes
+values(null, 1, 'Order Status', 2);
+insert into nc_attributes
+values(null, 2, 'Order Status', 2);
+insert into nc_attributes
+values(null, 3, 'Order Status', 2);
+
+insert into  nc_list_values
+values(null, 'Entering');
+insert into  nc_list_values
+values(null, 'Processing');
+insert into  nc_list_values
+values(null, 'Completed');
+insert into  nc_list_values
+values(null, 'Cancelled');
+
+insert into nc_params
+values(1, 7, null, '5');
+insert into nc_params
+values(1, 10, null, "35");
+insert into nc_params
+values(2, 8, null, '3');
+insert into nc_params
+values(2, 11, null, '35');
+insert into nc_params
+values(3, 8, null, "4");
+insert into nc_params
+values(3, 11, null, '44');
+insert into nc_params
+values(4, 7, null, '3');
+insert into nc_params
+values(4, 10, null, "57");
+insert into nc_params
+values(5, 9, null, '3');
+insert into nc_params
+values(5, 12, null, '60');
